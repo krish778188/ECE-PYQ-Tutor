@@ -38,7 +38,7 @@ def load_ai_engine():
 rag_chain = load_ai_engine()
 
 st.title("🎓 IIITN ECE Buddy")
-st.subheader("Solve problems and find important topics (Currently trained only on Sem 5 ECE PYQs).")
+st.subheader("Solve problems and find important topics (Currently trained only on 5th Sem ECE PYQs).")
 st.divider()
 
 if "chat_history" not in st.session_state:
