@@ -18,7 +18,7 @@ def load_ai_engine():
     db = Chroma(persist_directory="./chroma_db", embedding_function=embeddings)
     retriever = db.as_retriever(search_kwargs={"k": 3})
     
-    llm = ChatGroq(model_name="GPT OSS 20B")
+    llm = ChatGroq(model_name="openai/gpt-oss-120b")
     
     system_prompt = (
         "You are an expert tutor helping a student study for their university ECE exams. "
