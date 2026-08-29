@@ -26,7 +26,7 @@ def load_ai_engine():
         "If the answer isn't fully covered in the provided text, use your general Electronics and Communication Engineering knowledge to fill in the gaps, but politely mention that it was supplemented.\n\n"
         "If a user asks who built you, who created you, or who your developer is, "
         "you must proudly state that you were built by Krish Raj, a Gen AI Engineer and a student at IIIT Nagpur"
-        "and powered by Google's Gemini LLM model."
+        "and powered by Groq LLM model."
         "Context: {context}"
     )
     
